@@ -1,0 +1,25 @@
+table {
+	border-collapse: collapse;
+	border: 1px solid #2d2d2d;
+}
+th {
+	border: 1px solid #2d2d2d;
+	padding: 10px;
+}
+
+td {
+	padding: 5px;
+	text-align: center;
+	border-right: 1px solid #2d2d2d;
+}
+td:last-child {
+ border-right: none;
+}
+
+tr {
+ border-bottom: 1px solid #2d2d2d;
+}
+
+tr:last-child {
+ border-bottom: none;
+}
